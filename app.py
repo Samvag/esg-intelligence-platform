@@ -1,4 +1,4 @@
-# P&G ESG Intelligence Platform — AI Kit A (Demo, Agentic + Attestation)
+# CPG company ESG Intelligence Platform — AI Kit A (Demo, Agentic + Attestation)
 # Adds: Agent: Evidence Authenticator & Gap-Closer (AI + HMAC signature)
 # Works offline; flips to Anthropic/OpenAI if keys are present.
 # ---------------------------------------------------------------
@@ -32,7 +32,7 @@ except Exception:
 # Page configuration & styles
 # ────────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="P&G ESG Intelligence Platform — AI Kit A",
+    page_title="CPG company ESG Intelligence Platform — AI Kit A",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -231,7 +231,7 @@ def compliance_by_topic() -> pd.DataFrame:
 def show_header():
     st.markdown("""
     <div class="header-style">
-        <h1 style='margin:0'>🌍 P&G ESG Intelligence Platform — AI Kit A</h1>
+        <h1 style='margin:0'>🌍 CPG company ESG Intelligence Platform — AI Kit A</h1>
         <p style='margin:6px 0 0 0;font-size:16px'>AI-powered CSRD readiness • Waste optimization • Supplier assurance</p>
     </div>
     """, unsafe_allow_html=True)
@@ -855,7 +855,7 @@ def page_reports():
         st.markdown("### Q4 2024 ESG Performance Report")
         if st.button("Generate Quarterly Report", key="rep_qtr_btn"):
             time.sleep(0.6)
-            report = """# P&G Europe ESG Performance Report — Q4 2024
+            report = """# CPG company Europe ESG Performance Report — Q4 2024
 
 **Highlights**
 - CSRD compliance: 78% (target 95% Q2'25)
@@ -982,7 +982,7 @@ def main():
         page_api()
 
     st.markdown("---")
-    st.caption("P&G ESG Intelligence Platform — AI Kit A (Demo) • All data simulated for demonstration • © 2025")
+    st.caption("CPG company ESG Intelligence Platform — AI Kit A (Demo) • All data simulated for demonstration • © 2025")
 
 if __name__ == "__main__":
     main()
